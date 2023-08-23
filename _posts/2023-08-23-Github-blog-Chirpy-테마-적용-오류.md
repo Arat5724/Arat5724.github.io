@@ -4,6 +4,8 @@ author: arat5724
 date: 2023-08-23 00:34:00 +0800
 categories: [Other, Github blog]
 tags: [Jeklly, Chirpy, Github blog]
+image:
+  path: https://user-images.githubusercontent.com/79699284/262559455-fadf92df-ce06-41bc-a0dc-66e5dffdb361.png
 ---
 
 방치해두던 Github blog를 새로운 테마와 함께 시작하려던 와중 오류를 만났다.
@@ -32,7 +34,7 @@ _site/404.html
 ![image](https://github.com/Arat5724/arat5724.github.io/assets/79699284/ad6200f1-d42a-4e4d-86da-e583665fde41)
 
 `.github\workflows\pages-deploy.yml`에
-```
+```yml
       - name: Npm build
         run: npm i && npm run build
 ```
