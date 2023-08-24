@@ -1,7 +1,7 @@
 ---
 title: Github blog Chirpy 테마 적용 오류
 author: arat5724
-date: 2023-08-23 00:34:00 +0800
+date: 2023-08-23 14:30:00 +0800
 categories: [Other, Github blog]
 tags: [Jeklly, Chirpy, Github blog]
 image:
