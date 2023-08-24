@@ -17,7 +17,7 @@ Data Race는 그저 '다중 스레드/프로세스 환경에서 공유 자원에
 여러 이벤트/실행가 실행되는 시점이나 순서가 결과에 영향을 주는 상황.
 다중 스레드/프로세스 상황이 아닌 비동기 상황에서 발생할 수 있음.
 
-####예제
+#### 예제
 
 ```cs
 public class test : MonoBehaviour {
@@ -38,7 +38,7 @@ public class test : MonoBehaviour {
 }
 ```
 
-####결과
+#### 결과
 
 ![Alt text](image-1.png)
 
@@ -48,7 +48,7 @@ Unity의 Coroutine은 단일 스레드로 작동하지만 Race Condition이 발�
 
 다중 스레드/프로세스가 공유 자원에 동시에 접근할 때, 그리고 적어도 하나의 스레드/프로세스의 접근이 쓰기 작업일 때, 접근 순서에 따라 잘못된 값을 읽거나 쓰게 되는 Race Condition의 한 종류
 
-####예제
+#### 예제
 
 ```c
 #include <pthread.h>
@@ -69,7 +69,7 @@ int main() {
 }
 ```
 
-####결과
+#### 결과
 
 ![Alt text](image.png)
 
