@@ -1,7 +1,7 @@
 ---
 title: Data Race와 Race Condition
 author: arat5724
-date: 2023-08-23 10:11:00 +0800
+date: 2023-08-24 10:11:00+0900
 categories: [Dev, CS]
 tags: [Jeklly, Chirpy, Github blog]
 ---
@@ -40,7 +40,7 @@ public class test : MonoBehaviour {
 
 #### 결과
 
-![Alt text](image-1.png)
+![Alt text](image.png)
 
 Unity의 Coroutine은 단일 스레드로 작동하지만 Race Condition이 발생할 수 있다.
 
